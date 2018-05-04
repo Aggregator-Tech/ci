@@ -2,23 +2,26 @@
 This project contains the CI-CD pipeline for aggregatortech
 
 # Getting Started
-These instructions will enable you to set up Jenkins master on your machine
+These instructions will enable you to set up Jenkins master on your machine.
+If you are setting it up for the first time, use startJenkinswithLatestRepo.sh script decribed below
 
 # Prerequisites
 Docker must be installed in your machine
 
 # Starting Jenkins
+## startJenkinswithLatestRepo.sh
+This script does the following
+* Stops the running container "aggregatortech-jenkins" if any
+* Deletes the containers "aggregatortech-jenkins" and named data volume container "aggregatortech-jenkins-dv" if any
+* creates a new data volume container "aggregatortech-jenkins-dv"
+* Copies the content from aggregatortech-jenkins-dv-repo and adds it in the data volume container "aggregatortech-jenkins-dv" 
+* Starts "aggregatortech-jenkins" with refreshed data volume  "aggregatortech-jenkins-dv"
+
 ## startJenkins.sh
 * Stops the running container "aggregatortech-jenkins".
 * Deletes the containers "aggregatortech-jenkins" and named data volume container "aggregatortech-jenkins-dv"
 * Starts "aggregatortech-jenkins" with  data volume  "aggregatortech-jenkins-dv"
 
-## startJenkinswithLatestRepo.sh
-This script does the following
-* Stops the running container "aggregatortech-jenkins"
-* Deletes the containers "aggregatortech-jenkins" and named data volume container "aggregatortech-jenkins-dv"
-* Copies the content from aggregatortech-jenkins-dv-repo and adds it in the data volume container "aggregatortech-jenkins-dv"
-* Starts "aggregatortech-jenkins" with refreshed data volume  "aggregatortech-jenkins-dv"
 
 # Stopping Jenkins
 ## stopJenkins.sh 
