@@ -3,44 +3,45 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.0</version>
-    <relativePath />
+    <version>2.3</version>
   </parent>
 
     <artifactId>script-security</artifactId>
-    <version>1.44</version>
+    <version>1.18.1</version>
     <packaging>hpi</packaging>
     <name>Script Security Plugin</name>
     <description>Allows Jenkins administrators to control what in-process scripts can be run by less-privileged users.</description>
-    <url>https://wiki.jenkins.io/display/JENKINS/Script+Security+Plugin</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Script+Security+Plugin</url> 
     <properties>
-      <jenkins.version>2.7.3</jenkins.version>
-      <java.level>7</java.level>
+      <jenkins.version>1.580.1</jenkins.version>
+      <java.level>6</java.level>
+      <!--TODO: make true after the code cleanup-->
+      <findbugs.failOnError>false</findbugs.failOnError>
     </properties>
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://opensource.org/licenses/MIT</url>
+            <url>http://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-      <tag>script-security-1.44</tag>
+      <tag>script-security-1.18.1</tag>
   </scm>
 
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
@@ -48,7 +49,7 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>groovy-sandbox</artifactId>
-      <version>1.19</version>
+      <version>1.10</version>
       <exclusions>
         <exclusion>
           <groupId>org.codehaus.groovy</groupId>
@@ -56,5 +57,11 @@
         </exclusion>
       </exclusions>
     </dependency>
-  </dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>matrix-auth</artifactId>
+      <version>1.2</version>
+      <scope>test</scope>
+    </dependency>
+    </dependencies>
 </project>
