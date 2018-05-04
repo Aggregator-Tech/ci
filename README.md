@@ -4,9 +4,12 @@ This project contains the CI-CD pipeline for aggregatortech
 # Getting Started
 These instructions will enable you to set up Jenkins master on your machine.
 If you are setting it up for the first time, use startJenkinswithLatestRepo.sh script decribed below
+If you don't have privileges, you might have to run these scripts using sudo privs
+These scripts assumes the proxy details in the first version . will need to remove them and make configurable
 
 # Prerequisites
 Docker must be installed in your machine
+
 
 # Starting Jenkins
 ## startJenkinswithLatestRepo.sh
