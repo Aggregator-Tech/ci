@@ -9,6 +9,7 @@ This project contains the CI-CD pipeline for aggregatortech
 
 # Prerequisites
 Docker must be installed in your machine
+Must be in ci directory when executing these commands
 
 
 # Starting Jenkins
