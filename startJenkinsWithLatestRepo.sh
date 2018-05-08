@@ -28,6 +28,7 @@ sed "s/\${http.proxyHost}/$proxyHost/;s/\${http.proxyPort}/$proxyPort/" aggregat
 chmod -R 777  aggregatortech-jenkins-dv-repo
 docker cp  aggregatortech-jenkins-dv-repo/jenkins_home/.  aggregatortech-jenkins-dv:/var/jenkins_home/.
 docker cp  proxy.xml  aggregatortech-jenkins-dv:/var/jenkins_home/.
+rm -rf proxy.xml
 echo "volume refreshed  successfully"
 sh startJenkins.sh $proxyHost $proxyPort
 
