@@ -10,7 +10,7 @@ rm -rf staging/jenkins_home/tools
 rm -rf staging/jenkins_home/.gradle
 rm -rf staging/jenkins_home/war
 cp -r  staging/jenkins_home/.  aggregatortech-jenkins-dv-repo/jenkins_home/. 
-#rm -rf staging
+rm -rf staging
 
 echo "Local repo directory refreshed  successfully"
 
