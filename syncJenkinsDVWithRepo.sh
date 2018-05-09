@@ -1,16 +1,19 @@
 echo "Copying volume data from Jenikins Dv to local repository dir. "
-mkdir staging
-mkdir staging/jenkins_home
+mkdir stagingToRepo
+mkdir stagingToRepo/jenkins_home
 
-docker cp   aggregatortech-jenkins-dv:/var/jenkins_home/. staging/jenkins_home/. 
+docker cp   aggregatortech-jenkins-dv:/var/jenkins_home/. stagingToRepo/jenkins_home/. 
 #Items we dont want to copy over
-rm -rf staging/jenkins_home/proxy.xml
-rm -rf staging/jenkins_home/logs
-rm -rf staging/jenkins_home/tools
-rm -rf staging/jenkins_home/.gradle
-rm -rf staging/jenkins_home/war
-cp -r  staging/jenkins_home/.  aggregatortech-jenkins-dv-repo/jenkins_home/. 
-rm -rf staging
+rm -rf stagingToRepo/jenkins_home/proxy.xml
+rm -rf stagingToRepo/jenkins_home/logs
+rm -rf stagingToRepo/jenkins_home/tools
+rm -rf stagingToRepo/jenkins_home/.gradle
+rm -rf stagingToRepo/jenkins_home/war
+rm -rf stagingToRepo/jenkins_home/workspace
+rm -rf stagingToRepo/jenkins_home/cache
+rm -rf stagingToRepo/jenkins_home/jobs/*/builds
+cp -r  stagingToRepo/jenkins_home/.  aggregatortech-jenkins-dv-repo/jenkins_home/. 
+rm -rf stagingToRepo
 
 echo "Local repo directory refreshed  successfully"
 
