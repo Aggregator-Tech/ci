@@ -11,12 +11,13 @@ if [ -z "$proxyPort" ]; then
    echo "No proxy port from cmd, use default"
    proxyPort="80"
 fi
-proxyString = "-Dhttps.proxyHost=$proxyHost -Dhttps.proxyPort=$proxyPort -Dhttp.proxyHost=$proxyHost -Dhttp.proxyPort=$proxyPort"
+echo "Proxy host is"+$proxyHost
+echo "Proxy Port is"+$proxyPort
+proxyString="-Dhttps.proxyHost=$proxyHost -Dhttps.proxyPort=$proxyPort -Dhttp.proxyHost=$proxyHost -Dhttp.proxyPort=$proxyPort"
 if [ $proxyHost == "--noProxy" ] ; then
 	proxyString=""
 fi
-echo "Proxy host is"+$proxyHost
-echo "Proxy Port is"+$proxyPort
+echo $proxyString
 echo "Stopping running container aggregatortech-jenkins"
 docker stop aggregatortech-jenkins
 docker rm  aggregatortech-jenkins
