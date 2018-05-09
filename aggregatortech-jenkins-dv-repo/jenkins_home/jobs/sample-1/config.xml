@@ -24,9 +24,29 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers/>
+  <triggers>
+    <hudson.triggers.SCMTrigger>
+      <spec></spec>
+      <ignorePostCommitHooks>false</ignorePostCommitHooks>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.plugins.gradle.Gradle plugin="gradle@1.28">
+      <switches></switches>
+      <tasks></tasks>
+      <rootBuildScriptDir></rootBuildScriptDir>
+      <buildFile></buildFile>
+      <gradleName>(Default)</gradleName>
+      <useWrapper>true</useWrapper>
+      <makeExecutable>true</makeExecutable>
+      <useWorkspaceAsHome>false</useWorkspaceAsHome>
+      <wrapperLocation></wrapperLocation>
+      <passAllAsSystemProperties>false</passAllAsSystemProperties>
+      <projectProperties></projectProperties>
+      <passAllAsProjectProperties>false</passAllAsProjectProperties>
+    </hudson.plugins.gradle.Gradle>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
