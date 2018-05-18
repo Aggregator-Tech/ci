@@ -63,7 +63,7 @@
           </default>
           <int>3</int>
           <string>platform_url</string>
-          <string>${platform_url}</string>
+          <string>https://${platform_url}</string>
           <string>proxy_url</string>
           <string>http://${http.proxyHost}:${http.proxyPort}</string>
           <string>user.timezone</string>
