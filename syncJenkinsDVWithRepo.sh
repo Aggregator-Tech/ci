@@ -5,6 +5,7 @@ mkdir stagingToRepo/jenkins_home
 docker cp   aggregatortech-jenkins-dv:/var/jenkins_home/. stagingToRepo/jenkins_home/. 
 #Items we dont want to copy over
 rm -rf stagingToRepo/jenkins_home/proxy.xml
+rm -rf stagingToRepo/jenkins_home/plugins
 rm -rf stagingToRepo/jenkins_home/.bash_history
 rm -rf stagingToRepo/jenkins_home/.bash_logout
 rm -rf stagingToRepo/jenkins_home/.bashrc
