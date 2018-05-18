@@ -63,9 +63,9 @@
           </default>
           <int>3</int>
           <string>platform_url</string>
-          <string>https://aggregatortech-platform.herokuapp.com</string>
+          <string>${platform_url}</string>
           <string>proxy_url</string>
-          <string>http://www-proxy.us.oracle.com:80</string>
+          <string>${http.proxyHost}:${http.proxyPort}</string>
           <string>user.timezone</string>
           <string>America/New_York</string>
         </tree-map>
