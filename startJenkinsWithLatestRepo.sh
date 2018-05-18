@@ -29,8 +29,8 @@ if [ $proxyHost != "--noProxy" ] ; then
    sed "s/\${http.proxyHost}/$proxyHost/;s/\${http.proxyPort}/$proxyPort/" aggregatortech-jenkins-dv-repo/jenkins_home/proxy.xml >>  stagingForJenkins/jenkins_home/proxy.xml
    sed "s/\${http.proxyHost}/$proxyHost/;s/\${http.proxyPort}/$proxyPort/" aggregatortech-jenkins-dv-repo/jenkins_home/config.xml >>  stagingForJenkins/jenkins_home/config.xml
 fi
-if [ -z $platform_url] ; then
-   sed "s/\${platform_url}/$platform_url/" aggregatortech-jenkins-dv-repo/jenkins_home/config.xml >>  stagingForJenkins/jenkins_home/config.xml
+if [ -z "$platform_url"] ; then
+   sed "s/\${platform_url}/$platform_url/" stagingForJenkins/jenkins_home/config.xml >>  stagingForJenkins/jenkins_home/config.xml
 fi
 
 #create docker image
@@ -49,6 +49,6 @@ echo "volume recreated  successfully"
 chmod -R 777 stagingForJenkins
 docker cp  stagingForJenkins/jenkins_home/.  aggregatortech-jenkins-dv:/var/jenkins_home/.
 echo "volume refreshed  successfully"
-rm -rf stagingForJenkins
+#rm -rf stagingForJenkins
 sh startJenkins.sh $proxyHost $proxyPort
 
