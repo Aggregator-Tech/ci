@@ -1,0 +1,12 @@
+[work-heroku] Running shell script
++ sh ../gitcommit.sh
+Path is  ${PWD}
+Cloning into 'heroku-platform'...
+[detached HEAD a26ce78] my update msg
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+ delete mode 160000 platform
+ create mode 160000 work-heroku/heroku-platform
+ create mode 100644 work-heroku@tmp/durable-2165330d/jenkins-log.txt
+ create mode 100755 work-heroku@tmp/durable-2165330d/script.sh
+To https://github.com/Aggregator-Tech/platform
+   8a4249f..a26ce78  HEAD -> master

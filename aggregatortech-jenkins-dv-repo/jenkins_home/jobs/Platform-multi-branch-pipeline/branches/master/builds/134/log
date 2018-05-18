@@ -1,0 +1,104 @@
+Branch indexing
+Setting origin to https://github.com/Aggregator-Tech/platform
+Fetching origin...
+Obtained Jenkinsfile from 0a94a5d63918a4ae811be062e10c6ddd1ccea101
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4ERXJeN3mhRH/jUDhCBroevlSkH/H3rQ0tsBNCHKLOFnAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 0a94a5d63918a4ae811be062e10c6ddd1ccea101 (master)
+Commit message: "Update README.md"
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building code.. 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
+The project name 'integTests/webTemplate' contains at least one of the following characters: [ , /, \, :, <, >, ", ?, *, |]. This has been deprecated and is scheduled to be removed in Gradle 5.0. Set the 'rootProject.name' or adjust the 'include' statement (see https://docs.gradle.org/4.4/dsl/org.gradle.api.initialization.Settings.html#org.gradle.api.initialization.Settings:include(java.lang.String[]) for more details).
+:common:compileJava
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes
+:common:jar
+:common:assemble
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy
+:common:processTestResources NO-SOURCE
+:common:testClasses
+:common:test
+:common:check
+:common:build
+:integTests/webTemplate:compileJava NO-SOURCE
+:integTests/webTemplate:compileGroovy NO-SOURCE
+:integTests/webTemplate:processResources NO-SOURCE
+:integTests/webTemplate:classes UP-TO-DATE
+:integTests/webTemplate:jar
+:integTests/webTemplate:assemble
+:integTests/webTemplate:compileTestJava NO-SOURCE
+:integTests/webTemplate:compileTestGroovystartup failed:
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integTests/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy: 7: unable to resolve class javax.ws.rs.client.WebTarget
+ @ line 7, column 1.
+   import javax.ws.rs.client.WebTarget
+   ^
+
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integTests/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy: 6: unable to resolve class javax.ws.rs.client.ClientBuilder
+ @ line 6, column 1.
+   import javax.ws.rs.client.ClientBuilder
+   ^
+
+2 errors
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':integTests/webTemplate:compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 11s
+6 actionable tasks: 6 executed
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy)
+Stage 'Deploy' skipped due to earlier failure(s)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (staging)
+Stage 'staging' skipped due to earlier failure(s)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Production)
+Stage 'Production' skipped due to earlier failure(s)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

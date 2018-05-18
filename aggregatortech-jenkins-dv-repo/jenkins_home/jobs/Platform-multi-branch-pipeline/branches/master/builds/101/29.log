@@ -1,0 +1,41 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+Path is ${PWD}
+fatal: remote origin already exists.
+Reinitialized existing Git repository in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/.git/
+Cloning into 'heroku-platform'...
+From https://github.com/Aggregator-Tech/heroku-platform
+ + ac5ad98...2543e0a master     -> origin/master  (forced update)
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+[detached HEAD 88e2fba] my update msg
+ 20 files changed, 2 insertions(+)
+ mode change 100644 => 100755 .circleci/config.yml
+ mode change 100644 => 100755 .gitignore
+ mode change 100644 => 100755 build.gradle
+ mode change 100644 => 100755 common/src/main/java/common/io/file/FileSystemHelper.java
+ mode change 100644 => 100755 common/src/test/groovy/common/io/file/FileSystemHelperSpec.groovy
+ mode change 100644 => 100755 gradle/wrapper/gradle-wrapper.jar
+ mode change 100644 => 100755 gradle/wrapper/gradle-wrapper.properties
+ mode change 100644 => 100755 gradlew.bat
+ create mode 160000 heroku-platform
+ mode change 100644 => 100755 moduleTemplate/src/main/java/packageTemplate/ClassTemplate.java
+ mode change 100644 => 100755 moduleTemplate/src/test/groovy/packageTemplate/ClassTemplateTest.groovy
+ mode change 100644 => 100755 settings.gradle
+ mode change 100644 => 100755 webTemplate/Dockerfile
+ mode change 100644 => 100755 webTemplate/build.gradle
+ mode change 100644 => 100755 webTemplate/src/integration-test/groovy/webTemplate/resource/AboutTest.groovy
+ mode change 100644 => 100755 webTemplate/src/integration-test/java/test
+ mode change 100644 => 100755 webTemplate/src/main/java/webTemplate/resource/About.java
+ mode change 100644 => 100755 webTemplate/src/main/java/webTemplate/service/Server.java
+ mode change 100644 => 100755 webTemplate/src/test/groovy/webTemplate/service/ServerTest.groovy
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+

@@ -1,0 +1,52 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
+The project name 'integTests/webTemplate' contains at least one of the following characters: [ , /, \, :, <, >, ", ?, *, |]. This has been deprecated and is scheduled to be removed in Gradle 5.0. Set the 'rootProject.name' or adjust the 'include' statement (see https://docs.gradle.org/4.4/dsl/org.gradle.api.initialization.Settings.html#org.gradle.api.initialization.Settings:include(java.lang.String[]) for more details).
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:jar UP-TO-DATE
+:common:assemble UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:common:check UP-TO-DATE
+:common:build UP-TO-DATE
+:integTests/webTemplate:compileJava NO-SOURCE
+:integTests/webTemplate:compileGroovy NO-SOURCE
+:integTests/webTemplate:processResources NO-SOURCE
+:integTests/webTemplate:classes UP-TO-DATE
+:integTests/webTemplate:jar UP-TO-DATE
+:integTests/webTemplate:assemble UP-TO-DATE
+:integTests/webTemplate:compileTestJava NO-SOURCE
+:integTests/webTemplate:compileTestGroovystartup failed:
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integTests/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy: 7: unable to resolve class javax.ws.rs.client.WebTarget
+ @ line 7, column 1.
+   import javax.ws.rs.client.WebTarget
+   ^
+
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integTests/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy: 6: unable to resolve class javax.ws.rs.client.ClientBuilder
+ @ line 6, column 1.
+   import javax.ws.rs.client.ClientBuilder
+   ^
+
+2 errors
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':integTests/webTemplate:compileTestGroovy'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+6 actionable tasks: 1 executed, 5 up-to-date

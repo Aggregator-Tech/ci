@@ -1,0 +1,283 @@
+Branch indexing
+Setting origin to https://github.com/Aggregator-Tech/platform
+Fetching origin...
+Obtained Jenkinsfile from 7675eb22c5c389f138501fca57f01b8ec11177df
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4ERXJeN3mhRH/jUDhCBroevlSkH/H3rQ0tsBNCHKLOFnAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 7675eb22c5c389f138501fca57f01b8ec11177df (master)
+Commit message: "Update Jenkinsfile"
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building code.. 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:jar UP-TO-DATE
+:common:assemble UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:common:check UP-TO-DATE
+:common:build UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:jar UP-TO-DATE
+:moduleTemplate:assemble UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:moduleTemplate:check UP-TO-DATE
+:moduleTemplate:build UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:jar UP-TO-DATE
+:webTemplate:startScripts UP-TO-DATE
+:webTemplate:distTar UP-TO-DATE
+:webTemplate:distZip UP-TO-DATE
+:webTemplate:assemble UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+:webTemplate:check UP-TO-DATE
+:webTemplate:build UP-TO-DATE
+
+BUILD SUCCESSFUL in 5s
+15 actionable tasks: 15 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+running unit tests
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew test
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+
+BUILD SUCCESSFUL in 1s
+9 actionable tasks: 9 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploy  to remote repo.  Artifactory or  docker hub. we will not publish it to artifactory/docker hub yet 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew installDist
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:jar UP-TO-DATE
+:webTemplate:startScripts UP-TO-DATE
+:webTemplate:installDist UP-TO-DATE
+
+BUILD SUCCESSFUL in 1s
+4 actionable tasks: 4 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ rm -rf work-heroku
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ mkdir work-heroku
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/work-heroku
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[work-heroku] Running shell script
++ sh ../gitclone.sh
+Path is  ${PWD}
+Cloning into 'heroku-platform'...
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // dir
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/work-heroku/heroku-platform
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[heroku-platform] Running shell script
++ sh ../../gitcommit.sh
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Everything up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // dir
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (staging)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Commit to Heroku repo and that will trigger deploy on Heroku 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Run integ tests on staging env.
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew -b integ/build.gradle -DbaseUrl=https://ajeet1-platform.herokuapp.com/webTemplate/ test --info
+Initialized native services in: /root/.gradle/native
+The client will now receive all logging from the daemon (pid: 4594). The daemon log file: /root/.gradle/daemon/4.4/daemon-4594.out.log
+Starting 4th build in daemon [uptime: 16.067 secs, performance: 94%]
+Using 12 worker leases.
+Creating new cache for fileHashes, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@74d2a7b3
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Starting Build
+Settings evaluated using settings file '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/settings.gradle'.
+Projects loaded. Root project using build file '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/build.gradle'.
+Included projects: [root project 'integ']
+Evaluating root project 'integ' using build file '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/build.gradle'.
+Creating new cache for metadata-1.1/results, path /root/.gradle/caches/transforms-1/metadata-1.1/results.bin, access org.gradle.cache.internal.DefaultCacheAccess@4eebe614
+All projects evaluated.
+Selected primary task 'test' from project :
+Creating new cache for annotation-processors, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/fileContent/annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@61a12178
+Tasks to be executed: [task ':compileJava', task ':compileGroovy', task ':processResources', task ':classes', task ':compileTestJava', task ':compileTestGroovy', task ':processTestResources', task ':testClasses', task ':test']
+Creating new cache for resourceHashesCache, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@74d2a7b3
+Creating new cache for taskHistory, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@5b8ea196
+Creating new cache for outputFiles, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@48fadfdc
+:compileJava (Thread[Task worker for ':',5,main]) started.
+:compileJava
+Putting task artifact state for task ':compileJava' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/main/java', not found
+Skipping task ':compileJava' as it has no source files and no previous output files.
+:compileJava NO-SOURCE
+:compileJava (Thread[Task worker for ':',5,main]) completed. Took 0.007 secs.
+:compileGroovy (Thread[Task worker for ':',5,main]) started.
+:compileGroovy
+Putting task artifact state for task ':compileGroovy' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/main/groovy', not found
+Skipping task ':compileGroovy' as it has no source files and no previous output files.
+:compileGroovy NO-SOURCE
+:compileGroovy (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:processResources (Thread[Task worker for ':',5,main]) started.
+:processResources
+Putting task artifact state for task ':processResources' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/main/resources', not found
+Skipping task ':processResources' as it has no source files and no previous output files.
+:processResources NO-SOURCE
+:processResources (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:classes (Thread[Task worker for ':',5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes UP-TO-DATE
+:classes (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:compileTestJava (Thread[Task worker for ':',5,main]) started.
+:compileTestJava
+Putting task artifact state for task ':compileTestJava' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/test/java', not found
+Skipping task ':compileTestJava' as it has no source files and no previous output files.
+:compileTestJava NO-SOURCE
+:compileTestJava (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:compileTestGroovy (Thread[Task worker for ':',5,main]) started.
+:compileTestGroovy
+Putting task artifact state for task ':compileTestGroovy' into context took 0.0 secs.
+Creating new cache for metadata-2.36/module-metadata, path /root/.gradle/caches/modules-2/metadata-2.36/module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@7bbf4792
+Creating new cache for metadata-2.36/module-artifacts, path /root/.gradle/caches/modules-2/metadata-2.36/module-artifacts.bin, access org.gradle.cache.internal.DefaultCacheAccess@7bbf4792
+Creating new cache for metadata-2.36/module-artifact, path /root/.gradle/caches/modules-2/metadata-2.36/module-artifact.bin, access org.gradle.cache.internal.DefaultCacheAccess@7bbf4792
+Skipping task ':compileTestGroovy' as it is up-to-date (took 0.095 secs).
+:compileTestGroovy UP-TO-DATE
+:compileTestGroovy (Thread[Task worker for ':',5,main]) completed. Took 0.098 secs.
+:processTestResources (Thread[Task worker for ':',5,main]) started.
+:processTestResources
+Putting task artifact state for task ':processTestResources' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/test/resources', not found
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+:processTestResources NO-SOURCE
+:processTestResources (Thread[Task worker for ':',5,main]) completed. Took 0.005 secs.
+:testClasses (Thread[Task worker for ':',5,main]) started.
+:testClasses
+Skipping task ':testClasses' as it has no actions.
+:testClasses UP-TO-DATE
+:testClasses (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:test (Thread[Task worker for ':',5,main]) started.
+:test
+Putting task artifact state for task ':test' into context took 0.0 secs.
+Up-to-date check for task ':test' took 0.016 secs. It is not up-to-date because:
+  Task has failed previously.
+Starting process 'Gradle Test Executor 1'. Working directory: /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ Command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dawt.toolkit=sun.awt.X11.XToolkit -DbaseUrl=https://ajeet1-platform.herokuapp.com/webTemplate/ -Dfile.encoding.pkg=sun.io -Dfile.separator=/ -Dhttp.proxyHost=www-proxy.us.oracle.com -Dhttp.proxyPort=80 -Dhttps.proxyHost=www-proxy.us.oracle.com -Dhttps.proxyPort=80 -Djava.awt.graphicsenv=sun.awt.X11GraphicsEnvironment -Djava.awt.printerjob=sun.print.PSPrinterJob -Djava.class.path=/root/.gradle/wrapper/dists/gradle-4.4-all/9br9xq1tocpiv8o6njlyu5op1/gradle-4.4/lib/gradle-launcher-4.4.jar -Djava.class.version=52.0 -Djava.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed -Djava.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext -Djava.home=/usr/lib/jvm/java-8-openjdk-amd64/jre -Djava.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib -Djava.runtime.name=OpenJDK Runtime Environment -Djava.runtime.version=1.8.0_162-8u162-b12-1~deb9u1-b12 -Djava.security.manager=worker.org.gradle.process.internal.worker.child.BootstrapSecurityManager -Djava.specification.name=Java Platform API Specification -Djava.specification.vendor=Oracle Corporation -Djava.specification.version=1.8 -Djava.vendor=Oracle Corporation -Djava.vendor.url=http://java.oracle.com/ -Djava.vendor.url.bug=http://bugreport.sun.com/bugreport/ -Djava.version=1.8.0_162 -Djava.vm.info=mixed mode -Djava.vm.name=OpenJDK 64-Bit Server VM -Djava.vm.specification.name=Java Virtual Machine Specification -Djava.vm.specification.vendor=Oracle Corporation -Djava.vm.specification.version=1.8 -Djava.vm.vendor=Oracle Corporation -Djava.vm.version=25.162-b12 -Dlibrary.jansi.path=/root/.gradle/native/jansi/1.14/linux64 -Dline.separator=
+ -Dorg.gradle.appname=gradlew -Dorg.gradle.native=false -Dos.arch=amd64 -Dos.name=Linux -Dos.version=4.1.12-112.14.13.el7uek.x86_64 -Dpath.separator=: -Dsun.arch.data.model=64 -Dsun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes -Dsun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64 -Dsun.cpu.endian=little -Dsun.cpu.isalist -Dsun.io.unicode.encoding=UnicodeLittle -Dsun.java.command=org.gradle.launcher.daemon.bootstrap.GradleDaemon 4.4 -Dsun.java.launcher=SUN_STANDARD -Dsun.jnu.encoding=UTF-8 -Dsun.management.compiler=HotSpot 64-Bit Tiered Compilers -Dsun.os.patch.level=unknown -Duser.dir=/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ -Duser.home=/root -Duser.name=root -Duser.timezone -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/tmp -Duser.country -Duser.language=en -Duser.variant -ea -cp /root/.gradle/caches/4.4/workerMain/gradle-worker.jar worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+Successfully started process 'Gradle Test Executor 1'
+Gradle Test Executor 1 started executing tests.
+
+webTemplate.resource.AboutTest > testGetAbout STANDARD_OUT
+    baseUrl= https://ajeet1-platform.herokuapp.com/webTemplate/
+    Path is /webTemplate/v1/about 
+    response = webTemplate
+Gradle Test Executor 1 finished executing tests.
+Finished generating test XML results (0.014 secs) into: /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/build/test-results/test
+Generating HTML test report...
+Finished generating test html results (0.02 secs) into: /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/build/reports/tests/test
+:test (Thread[Task worker for ':',5,main]) completed. Took 3.093 secs.
+
+BUILD SUCCESSFUL in 4s
+2 actionable tasks: 1 executed, 1 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Production)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploy the prod env
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

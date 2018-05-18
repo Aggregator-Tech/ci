@@ -1,0 +1,20 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+Cloning into 'heroku-platform'...
+Path is ${PWD}
+fatal: remote origin already exists.
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+[detached HEAD 919c9ee] my update msg
+ 2 files changed, 2 insertions(+)
+ create mode 160000 heroku-platform
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+

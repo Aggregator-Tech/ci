@@ -1,0 +1,4 @@
+HttpMethod: GET
+URL: https://aggregatortech-platform.herokuapp.com/webTemplate
+Sending request to url: https://aggregatortech-platform.herokuapp.com/webTemplate
+Response Code: HTTP/1.1 404 Not Found

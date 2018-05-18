@@ -1,0 +1,9 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+
+
+Cloning into 'heroku-platform'...
+[master 2543e0a] Add change
+ 1 file changed, 1 insertion(+)
+ create mode 160000 heroku-platform
+fatal: could not read Username for 'https://github.com': No such device or address

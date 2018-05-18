@@ -1,0 +1,99 @@
+Branch indexing
+Setting origin to https://github.com/Aggregator-Tech/platform
+Fetching origin...
+Obtained Jenkinsfile from b927d9d3c112c46e33dd5e64e5fbfa9a0d6c5287
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4ERXJeN3mhRH/jUDhCBroevlSkH/H3rQ0tsBNCHKLOFnAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+remote: Counting objects
+remote: Compressing objects
+Receiving objects
+Resolving deltas
+Updating references
+Fetching without tags
+Checking out Revision b927d9d3c112c46e33dd5e64e5fbfa9a0d6c5287 (master)
+Commit message: "removing error"
+First time build. Skipping changelog.
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building code..
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
+:common:compileJava
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes
+:common:jar
+:common:assemble
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy
+:common:processTestResources NO-SOURCE
+:common:testClasses
+:common:test
+:common:check
+:common:build
+:moduleTemplate:compileJava
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes
+:moduleTemplate:jar
+:moduleTemplate:assemble
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses
+:moduleTemplate:test
+:moduleTemplate:check
+:moduleTemplate:build
+:webTemplate:compileJava
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes
+:webTemplate:jar
+:webTemplate:startScripts
+:webTemplate:distTar
+:webTemplate:distZip
+:webTemplate:assemble
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses
+:webTemplate:test
+:webTemplate:check
+:webTemplate:build
+
+BUILD SUCCESSFUL in 15s
+15 actionable tasks: 15 executed
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Testing..
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploying....
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

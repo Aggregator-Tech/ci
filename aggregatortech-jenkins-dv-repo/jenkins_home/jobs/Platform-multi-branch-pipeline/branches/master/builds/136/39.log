@@ -1,0 +1,7 @@
+[heroku-platform] Running shell script
++ sh ../../gitcommit.sh
+cp: cannot stat '../../webTemplate/build/install/webTemplate/lib/webTemplate-1.0.zip': No such file or directory
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Everything up-to-date

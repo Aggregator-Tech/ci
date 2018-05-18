@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.52">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526410057369</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.52">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=0fb1de6ff8fc268f60e8f0eca1248d776e37e547</string>
+            <string>GIT_PREVIOUS_COMMIT=4db8a5409deaae04a49c2d884fbd31c33ad690f6</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=fc56326da3e4476704f54dde48dd038bc17a8c7d</string>
+            <string>GIT_URL=https://github.com/Aggregator-Tech/platform</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

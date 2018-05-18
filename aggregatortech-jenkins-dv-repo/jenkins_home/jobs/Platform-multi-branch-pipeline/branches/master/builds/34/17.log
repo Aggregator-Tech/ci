@@ -1,0 +1,32 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew test
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+
+BUILD SUCCESSFUL in 1s
+9 actionable tasks: 9 up-to-date

@@ -1,0 +1,11 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+/var/jenkins_home/workspace/heroku-platform
+
+
+fatal: destination path 'heroku-platform' already exists and is not an empty directory.
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+fatal: could not read Username for 'https://github.com': No such device or address

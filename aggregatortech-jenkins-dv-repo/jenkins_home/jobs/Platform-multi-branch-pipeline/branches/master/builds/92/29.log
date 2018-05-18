@@ -1,0 +1,16 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+Path is ${PWD}
+Previous HEAD position was 8cdd14b... Update gitcommit.sh
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+[master 4efae99] my update msg
+ 1 file changed, 1 insertion(+)
+To https://github.com/Aggregator-Tech/platform
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Aggregator-Tech/platform'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

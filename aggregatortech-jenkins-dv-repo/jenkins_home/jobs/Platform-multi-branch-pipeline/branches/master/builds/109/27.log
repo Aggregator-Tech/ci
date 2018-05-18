@@ -1,0 +1,3 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitclone.sh
+sh: 0: Can't open gitclone.sh

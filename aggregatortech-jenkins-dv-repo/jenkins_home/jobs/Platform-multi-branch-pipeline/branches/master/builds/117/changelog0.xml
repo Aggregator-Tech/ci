@@ -1,0 +1,44 @@
+commit 3a265ae4b783d82b4ea2477467bd449a81ffc026
+tree 18ee8ee0bde01c112538bc26f39a367701b4ea4f
+parent 43098e25bf6f52d61cc89386d852465956a2c64c
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-15T23:49:48+0000
+committer GitHub <noreply@github.com> 2018-05-15T23:49:48+0000
+
+    Update gitcommit.sh
+
+:100644 100644 045ae21ae1316b034a7bf66bff4ddc1d6a0de0ba c138597ce056ad28485352b37b6e62e38ecc994e M	gitcommit.sh
+
+commit 43098e25bf6f52d61cc89386d852465956a2c64c
+tree 4ff1a084cb28a6100ff371370e6583620ce1c2f8
+parent 448a85052702f679c5faa1a5ae6b93904b3e1d23
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-15T23:48:03+0000
+committer GitHub <noreply@github.com> 2018-05-15T23:48:03+0000
+
+    Create gitclone.sh
+
+:000000 100644 0000000000000000000000000000000000000000 d5a7417652dc3b7088f2974d302b6e424b3565d5 A	gitclone.sh
+
+commit 448a85052702f679c5faa1a5ae6b93904b3e1d23
+tree 4a4e988bc0a762ed142db6bafe18c4292f3de65f
+parent 3142af7862415dec9c427c48f5e9b59d16d07e09
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-15T23:35:50+0000
+committer GitHub <noreply@github.com> 2018-05-15T23:35:50+0000
+
+    Update gitcommit.sh
+
+:100644 100644 eb76a840f3554d8482e7ae3f0c6400671ee6fa93 045ae21ae1316b034a7bf66bff4ddc1d6a0de0ba M	gitcommit.sh
+
+commit 3142af7862415dec9c427c48f5e9b59d16d07e09
+tree c8dd3ca76dd427e502d6441dc82ab621f7957e64
+parent b5cc0916b65c86f6c7b0e52230e7844bbc8b4b58
+author aggregatortech <aggregatortech@gmail.com> 2018-05-15T23:31:55+0000
+committer aggregatortech <aggregatortech@gmail.com> 2018-05-15T23:31:55+0000
+
+    my update msg
+
+:160000 160000 2543e0a8cce93e2d904febfc1e15a4d401b64cda da24a0c9055fb05d8cb6d5650fb7b4537e093e1f M	work-heroku/heroku-platform
+
+:000000 100644 0000000000000000000000000000000000000000 2d97550c5e41d120fe7b174f44ea793f2383c15e A	work-heroku@tmp/durable-7bb3102b/jenkins-log.txt
+
+:000000 100755 0000000000000000000000000000000000000000 6f024edb283241bea803d3bf3ce4788af159813f A	work-heroku@tmp/durable-7bb3102b/script.sh
+

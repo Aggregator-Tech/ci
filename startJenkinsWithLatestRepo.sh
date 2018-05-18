@@ -20,6 +20,8 @@ rm -f stagingForJenkins/jenkins_home/proxy.xml
 if [ $proxyHost != "--noProxy" ] ; then
 sed "s/\${http.proxyHost}/$proxyHost/;s/\${http.proxyPort}/$proxyPort/" aggregatortech-jenkins-dv-repo/jenkins_home/proxy.xml >>  stagingForJenkins/jenkins_home/proxy.xml
 fi
+#create docker image
+#docker build jenkins2/.
 docker cp  stagingForJenkins/jenkins_home/.  aggregatortech-jenkins-dv:/var/jenkins_home/.
 echo "Stopping running container aggregatortech-jenkins"
 docker stop aggregatortech-jenkins

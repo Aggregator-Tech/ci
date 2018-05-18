@@ -1,0 +1,85 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew -b integ/build.gradle -DbaseUrl=https://ajeet1-platform.herokuapp.com/webTemplate/ test --info
+Initialized native services in: /root/.gradle/native
+The client will now receive all logging from the daemon (pid: 5116). The daemon log file: /root/.gradle/daemon/4.4/daemon-5116.out.log
+Starting 4th build in daemon [uptime: 26.094 secs, performance: 97%]
+Using 12 worker leases.
+Creating new cache for fileHashes, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@17f928be
+Starting Build
+Settings evaluated using settings file '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/settings.gradle'.
+Projects loaded. Root project using build file '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/build.gradle'.
+Included projects: [root project 'integ']
+Evaluating root project 'integ' using build file '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/build.gradle'.
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Creating new cache for metadata-1.1/results, path /root/.gradle/caches/transforms-1/metadata-1.1/results.bin, access org.gradle.cache.internal.DefaultCacheAccess@6eb8d4ca
+All projects evaluated.
+Selected primary task 'test' from project :
+Creating new cache for annotation-processors, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/fileContent/annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@101334bc
+Tasks to be executed: [task ':compileJava', task ':compileGroovy', task ':processResources', task ':classes', task ':compileTestJava', task ':compileTestGroovy', task ':processTestResources', task ':testClasses', task ':test']
+Creating new cache for resourceHashesCache, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@17f928be
+Creating new cache for taskHistory, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/4.4/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@2d515130
+Creating new cache for outputFiles, path /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@7b76a738
+:compileJava (Thread[Task worker for ':',5,main]) started.
+:compileJava
+Putting task artifact state for task ':compileJava' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/main/java', not found
+Skipping task ':compileJava' as it has no source files and no previous output files.
+:compileJava NO-SOURCE
+:compileJava (Thread[Task worker for ':',5,main]) completed. Took 0.01 secs.
+:compileGroovy (Thread[Task worker for ':',5,main]) started.
+:compileGroovy
+Putting task artifact state for task ':compileGroovy' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/main/groovy', not found
+Skipping task ':compileGroovy' as it has no source files and no previous output files.
+:compileGroovy NO-SOURCE
+:compileGroovy (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:processResources (Thread[Task worker for ':',5,main]) started.
+:processResources
+Putting task artifact state for task ':processResources' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/main/resources', not found
+Skipping task ':processResources' as it has no source files and no previous output files.
+:processResources NO-SOURCE
+:processResources (Thread[Task worker for ':',5,main]) completed. Took 0.003 secs.
+:classes (Thread[Task worker for ':',5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes UP-TO-DATE
+:classes (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:compileTestJava (Thread[Task worker for ':',5,main]) started.
+:compileTestJava
+Putting task artifact state for task ':compileTestJava' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/test/java', not found
+Skipping task ':compileTestJava' as it has no source files and no previous output files.
+:compileTestJava NO-SOURCE
+:compileTestJava (Thread[Task worker for ':',5,main]) completed. Took 0.002 secs.
+:compileTestGroovy (Thread[Task worker for ':',5,main]) started.
+:compileTestGroovy
+Putting task artifact state for task ':compileTestGroovy' into context took 0.0 secs.
+Creating new cache for metadata-2.36/module-metadata, path /root/.gradle/caches/modules-2/metadata-2.36/module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@34f9658b
+Creating new cache for metadata-2.36/module-artifacts, path /root/.gradle/caches/modules-2/metadata-2.36/module-artifacts.bin, access org.gradle.cache.internal.DefaultCacheAccess@34f9658b
+Creating new cache for metadata-2.36/module-artifact, path /root/.gradle/caches/modules-2/metadata-2.36/module-artifact.bin, access org.gradle.cache.internal.DefaultCacheAccess@34f9658b
+Skipping task ':compileTestGroovy' as it is up-to-date (took 0.042 secs).
+:compileTestGroovy UP-TO-DATE
+:compileTestGroovy (Thread[Task worker for ':',5,main]) completed. Took 0.045 secs.
+:processTestResources (Thread[Task worker for ':',5,main]) started.
+:processTestResources
+Putting task artifact state for task ':processTestResources' into context took 0.0 secs.
+file or directory '/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/integ/src/test/resources', not found
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+:processTestResources NO-SOURCE
+:processTestResources (Thread[Task worker for ':',5,main]) completed. Took 0.009 secs.
+:testClasses (Thread[Task worker for ':',5,main]) started.
+:testClasses
+Skipping task ':testClasses' as it has no actions.
+:testClasses UP-TO-DATE
+:testClasses (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:test (Thread[Task worker for ':',5,main]) started.
+:test
+Putting task artifact state for task ':test' into context took 0.0 secs.
+Skipping task ':test' as it is up-to-date (took 0.009 secs).
+:test UP-TO-DATE
+:test (Thread[Task worker for ':',5,main]) completed. Took 0.012 secs.
+
+BUILD SUCCESSFUL in 0s
+2 actionable tasks: 2 up-to-date

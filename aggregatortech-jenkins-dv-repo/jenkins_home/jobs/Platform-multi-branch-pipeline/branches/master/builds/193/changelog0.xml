@@ -1,0 +1,20 @@
+commit 20dd8b6aeddebbcec193e3e9948bf390c2a069d1
+tree 716bad2f1a6c0f58ea0a501336514a9d74a486f0
+parent 138c30968dfe190402fecfd8c126f9bfee25d116
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T23:30:01+0000
+committer GitHub <noreply@github.com> 2018-05-17T23:30:01+0000
+
+    Update gitclone.sh
+
+:100644 100644 d5a7417652dc3b7088f2974d302b6e424b3565d5 7206bf00ad9860eadd87945996c4361c4513502a M	gitclone.sh
+
+commit 138c30968dfe190402fecfd8c126f9bfee25d116
+tree c89930c5e5a0fb978d0640f469140ff20e84becb
+parent e8014bab3ef764bebfcf799879462b5eebffa4f5
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T23:29:16+0000
+committer GitHub <noreply@github.com> 2018-05-17T23:29:16+0000
+
+    Delete commitFile
+
+:100644 000000 13c4f895a85e6bbd38e3d930c7e76d93d8c4ec04 0000000000000000000000000000000000000000 D	commitFile
+

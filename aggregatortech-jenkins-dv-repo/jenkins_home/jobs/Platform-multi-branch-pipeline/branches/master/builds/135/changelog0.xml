@@ -1,0 +1,80 @@
+commit 723a5c90fcff44657dd87298d470a14114b9f0f2
+tree 64a01a5a5c878495fb4e422e1bbe5fb86317fdbe
+parent 92f863b3d05f37742a70641cc68f4ccbdd66d1b4
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T17:48:53+0000
+committer GitHub <noreply@github.com> 2018-05-17T17:48:53+0000
+
+    Update Jenkinsfile
+
+:100644 100644 dfe76e1c1b3068b1a4e6be4990f112f12e7a04b5 4d22eb7a7aec128f3537f2888393db25716dc25e M	Jenkinsfile
+
+commit 92f863b3d05f37742a70641cc68f4ccbdd66d1b4
+tree deb826d2313873b321141d392652232c13566fca
+parent e0913505b1faf9516837d27ca0b033c420ae84ed
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T17:46:42+0000
+committer aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T17:46:42+0000
+
+    integ tests
+
+:100644 000000 9b31c2162629ec812a1f4dc3efd146beec06c95b 0000000000000000000000000000000000000000 D	.circleci/config.yml
+
+:000000 100644 0000000000000000000000000000000000000000 eee4a4011d730e9ad5fc601029d3faa0d03c2de7 A	integ/build.gradle
+
+:000000 100644 0000000000000000000000000000000000000000 27b5aef61190b6b60cafad03e83c6c55c29ed944 A	integ/settings.gradle
+
+:000000 100644 0000000000000000000000000000000000000000 bf0a437d9de964c1ed5b4c34574adad34a5fbf67 A	integ/src/test/groovy/webTemplate/resource/AboutTest.groovy
+
+:100644 100644 0959770e0a983b5001b776d1fbb4402acefa9063 fa9d2c98f539804c59d5b0907e42d8312409f71a M	settings.gradle
+
+:160000 000000 da24a0c9055fb05d8cb6d5650fb7b4537e093e1f 0000000000000000000000000000000000000000 D	work-heroku/heroku-platform
+
+commit e0913505b1faf9516837d27ca0b033c420ae84ed
+tree 975007ca17de159b147a779c0b6856392db35818
+parent 37dc9ebb442085bc0ea5452b9d287085fa825599
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T05:00:49+0000
+committer GitHub <noreply@github.com> 2018-05-17T05:00:49+0000
+
+    Update settings.gradle
+
+:100644 100644 71c9321539fb0399dded4d4932af57a1482d8cf2 0959770e0a983b5001b776d1fbb4402acefa9063 M	settings.gradle
+
+commit 37dc9ebb442085bc0ea5452b9d287085fa825599
+tree 455467e81a7e9384b930a00a85d6d09764420132
+parent 28e1a512ec9a3d892333cbccded964673a760f39
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T04:55:47+0000
+committer GitHub <noreply@github.com> 2018-05-17T04:55:47+0000
+
+    Delete AboutTest.groovy
+
+:100644 000000 67410d41d1d40129393cffa178cb592c5ee9affc 0000000000000000000000000000000000000000 D	integTests/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy
+
+commit 28e1a512ec9a3d892333cbccded964673a760f39
+tree 504925e6a2768eb7f34d09de84f51ea3801a5157
+parent ef0464a3d5a85e0d8eb8f5a13b0fc398b93345eb
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T04:55:34+0000
+committer GitHub <noreply@github.com> 2018-05-17T04:55:34+0000
+
+    Delete build.gradle
+
+:100644 000000 cbf46d24bf47ceaea17b9fac12420178d47df13c 0000000000000000000000000000000000000000 D	integTests/webTemplate/build.gradle
+
+commit ef0464a3d5a85e0d8eb8f5a13b0fc398b93345eb
+tree 3057d2f6a6f1480c27805f9c5ce3aa1616f5c5a3
+parent 25bd4433ca5cc25245e0bea390c2e4e03a15de9a
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T04:19:59+0000
+committer GitHub <noreply@github.com> 2018-05-17T04:19:59+0000
+
+    Update build.gradle
+
+:100644 100644 d9d2a0ff3760e6e3a3e3804cd60ae7e51d9d86de cbf46d24bf47ceaea17b9fac12420178d47df13c M	integTests/webTemplate/build.gradle
+
+commit 25bd4433ca5cc25245e0bea390c2e4e03a15de9a
+tree 042fbffbdaeb71fc17eb151d9cde4ed4a1a359dc
+parent 0a94a5d63918a4ae811be062e10c6ddd1ccea101
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T03:37:15+0000
+committer GitHub <noreply@github.com> 2018-05-17T03:37:15+0000
+
+    Update build.gradle
+
+:100644 100644 56eac11560658085484eeabd0104896c889bad45 d9d2a0ff3760e6e3a3e3804cd60ae7e51d9d86de M	integTests/webTemplate/build.gradle
+

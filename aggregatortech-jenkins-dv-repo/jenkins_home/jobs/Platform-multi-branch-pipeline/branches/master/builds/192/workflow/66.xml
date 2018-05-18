@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.52">
+    <parentIds>
+      <string>65</string>
+    </parentIds>
+    <id>66</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.input.InputStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526599714736</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.52">
+      <arguments>
+        <entry>
+          <string>message</string>
+          <string>Do you want to deploy to the production env?</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <s.a.PauseAction>
+      <cause>Input</cause>
+      <startTime>1526599714767</startTime>
+      <endTime>1526599724031</endTime>
+    </s.a.PauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction plugin="pipeline-input-step@2.8">
+      <parameters class="linked-hash-map"/>
+      <approver>aggregatortech</approver>
+    </org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction>
+  </actions>
+</Tag>

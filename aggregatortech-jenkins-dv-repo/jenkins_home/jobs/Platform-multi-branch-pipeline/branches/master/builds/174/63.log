@@ -1,0 +1,15 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew -b integ/build.gradle -DbaseUrl=https://aggregatortech-platform.herokuapp.com/webTemplate clean test
+:clean
+:compileJava NO-SOURCE
+:compileGroovy NO-SOURCE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 3 executed

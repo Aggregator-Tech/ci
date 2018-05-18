@@ -1,0 +1,8 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ git push --force https://****:****@heroku-platform.git
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push https://****:****@heroku-platform.git HEAD:<name-of-remote-branch>
+

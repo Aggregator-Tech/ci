@@ -1,0 +1,194 @@
+Branch indexing
+Setting origin to https://github.com/Aggregator-Tech/platform
+Fetching origin...
+Obtained Jenkinsfile from 0e13a808c8b0f7f9a98d49c185ce6a3b8c260d86
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4ERXJeN3mhRH/jUDhCBroevlSkH/H3rQ0tsBNCHKLOFnAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 0e13a808c8b0f7f9a98d49c185ce6a3b8c260d86 (master)
+Commit message: "Update gitcommit.sh"
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building code.. 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:jar UP-TO-DATE
+:common:assemble UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:common:check UP-TO-DATE
+:common:build UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:jar UP-TO-DATE
+:moduleTemplate:assemble UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:moduleTemplate:check UP-TO-DATE
+:moduleTemplate:build UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:jar UP-TO-DATE
+:webTemplate:startScripts UP-TO-DATE
+:webTemplate:distTar UP-TO-DATE
+:webTemplate:distZip UP-TO-DATE
+:webTemplate:assemble UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+:webTemplate:check UP-TO-DATE
+:webTemplate:build UP-TO-DATE
+
+BUILD SUCCESSFUL in 5s
+15 actionable tasks: 15 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+running unit tests
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew test
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+
+BUILD SUCCESSFUL in 0s
+9 actionable tasks: 9 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploy to remote repo. Artifactory or  docker hub. we will not publish it to artifactory/docker hub yet 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew installDist
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:jar UP-TO-DATE
+:webTemplate:startScripts UP-TO-DATE
+:webTemplate:installDist UP-TO-DATE
+
+BUILD SUCCESSFUL in 0s
+4 actionable tasks: 4 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ echo /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sshagent
+[ssh-agent] Using credentials atul-aggregatortech
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-9mHgh1CpmpEt/agent.3451
+SSH_AGENT_PID=3453
+[ssh-agent] Started.
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 3453 killed;
+[ssh-agent] Stopped.
++ sh gitcommit.sh
+fatal: destination path 'heroku-platform' already exists and is not an empty directory.
+Path is ${PWD}
+fatal: destination path 'heroku-platform' already exists and is not an empty directory.
+fatal: remote origin already exists.
+warning: no common commits
+From https://github.com/Aggregator-Tech/heroku-platform
+ + 0e13a80...2543e0a master     -> origin/master  (forced update)
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+[detached HEAD b067add] my update msg
+ 2 files changed, 2 insertions(+)
+ create mode 160000 heroku-platform
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // sshagent
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (staging)
+Stage 'staging' skipped due to earlier failure(s)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Production)
+Stage 'Production' skipped due to earlier failure(s)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 128
+Finished: FAILURE

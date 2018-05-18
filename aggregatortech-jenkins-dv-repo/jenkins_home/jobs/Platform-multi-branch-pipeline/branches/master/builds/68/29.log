@@ -1,0 +1,16 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+Path is ${PWD}
+Path is ${PWD}
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+
+
+Previous HEAD position was ac7a188... Update gitcommit.sh
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+[master a80e8be] my update msg
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 commitFile
+ create mode 100644 commitfile
+fatal: could not read Username for 'https://github.com': No such device or address

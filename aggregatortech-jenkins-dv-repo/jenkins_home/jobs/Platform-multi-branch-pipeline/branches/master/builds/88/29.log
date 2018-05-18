@@ -1,0 +1,17 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ sh gitcommit.sh
+Cloning into 'platform'...
+Path is ${PWD}
+Path is ${PWD}
+/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+
+
+Previous HEAD position was 8c1348a... Update gitcommit.sh
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+[master d061129] my update msg
+ 1 file changed, 1 insertion(+)
+ create mode 160000 platform
+fatal: unable to access 'https://atul-aggregatortech:Westworld1@Aggregator-Tech/platform.git/': The requested URL returned error: 502

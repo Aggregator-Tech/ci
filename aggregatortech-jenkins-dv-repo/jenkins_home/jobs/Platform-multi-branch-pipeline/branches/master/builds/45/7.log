@@ -1,0 +1,10 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+remote: Counting objects
+remote: Compressing objects
+Receiving objects
+Resolving deltas
+Updating references
+Fetching without tags
+Checking out Revision 9ee8db1e0aef720db4929881df88f2164520925d (master)
+Commit message: "Update Jenkinsfile"

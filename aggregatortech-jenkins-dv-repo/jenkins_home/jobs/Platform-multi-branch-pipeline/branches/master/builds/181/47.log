@@ -1,0 +1,2 @@
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ timeout 120 wget --retry-connrefused --tries=10 --waitretry=1 -q https://aggregatortech-platform.herokuapp.com/webTemplate/v1/about -O /dev/null

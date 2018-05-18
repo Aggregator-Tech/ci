@@ -1,0 +1,150 @@
+commit 5635b64cf67b44e7fee35f649122fd13bcb18a41
+tree 6105d6ca39bb00a89d013316907c339df2538d4c
+parent f6128a9989c7d0597b01e67325d591150688d62b
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-14T03:52:17+0000
+committer GitHub <noreply@github.com> 2018-05-14T03:52:17+0000
+
+    Update Jenkinsfile
+
+:100644 100644 4b1ff2023ae6891a038da7fe035b4f9f3478dba0 3f2d73154846593eca92424322603c7774fabd8e M	Jenkinsfile
+
+commit f6128a9989c7d0597b01e67325d591150688d62b
+tree dc347bea0bbe82d2d3af040080a4d92f8532f32c
+parent 53517cf5d23e83f15b5604243bd5e24b7ad54beb
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-14T03:50:52+0000
+committer GitHub <noreply@github.com> 2018-05-14T03:50:52+0000
+
+    Update Jenkinsfile
+
+:100644 100644 d2848dce679d9e9db64da7f400083d070bb0eaa2 4b1ff2023ae6891a038da7fe035b4f9f3478dba0 M	Jenkinsfile
+
+commit 53517cf5d23e83f15b5604243bd5e24b7ad54beb
+tree 3eeff69a6ab59d186d0f3cd85e17fa600ad5789c
+parent 533ebf9c1f0b46877001e2e29875b8380e24052e
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-14T03:45:06+0000
+committer GitHub <noreply@github.com> 2018-05-14T03:45:06+0000
+
+    Update Jenkinsfile
+
+:100644 100644 636831722e98745a206c371751c3873bdd3fe614 d2848dce679d9e9db64da7f400083d070bb0eaa2 M	Jenkinsfile
+
+commit 533ebf9c1f0b46877001e2e29875b8380e24052e
+tree a467d095b6da7303658b6b80973d5fa75ea256ef
+parent 419a4890151b4463edaf20c2a40f9cda4916563b
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:46:58+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:46:58+0000
+
+    Update build.gradle
+
+:100644 100644 ab586dce67889b37fc8e6eb18bf556ca26c06e5d 254953831386a6cf1f3a196d9734352d5cc29c92 M	build.gradle
+
+commit 419a4890151b4463edaf20c2a40f9cda4916563b
+tree 0f830a8f1fa760fe88e780b7d0667a7364d03de4
+parent 6cbb69626145162bb75aed7b959f8084d4da0595
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:25:34+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:25:34+0000
+
+    Update settings.gradle
+
+:100644 100644 4bd5c6244126ffa7cfa817102f27a1b8e3d75285 481b72823987ca079a7f0af6dba65a750430a3e8 M	settings.gradle
+
+commit 6cbb69626145162bb75aed7b959f8084d4da0595
+tree 35c00b6fc3aaf4b1bac3aea96c4cad44e5cd349f
+parent aa2481a838c5c745da69bdcc4a10030a0df814e7
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:24:39+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:24:39+0000
+
+    Delete AboutTest.groovy
+
+:100644 000000 67410d41d1d40129393cffa178cb592c5ee9affc 0000000000000000000000000000000000000000 D	platformIntegTest/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy
+
+commit aa2481a838c5c745da69bdcc4a10030a0df814e7
+tree 91aba357363fbe4620e39bc000f6ddc001411c51
+parent 21ec60add8ef2c7cf6816638ded0f9a1802c1b85
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:23:46+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:23:46+0000
+
+    Create AboutTest.groovy
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	webTemplate/src/integration-test/groovy/webTemplate/resource/AboutTest.groovy
+
+commit 21ec60add8ef2c7cf6816638ded0f9a1802c1b85
+tree 9244b2a4e4b481843d74b76dc1afe2354e691464
+parent b2282dd6557897aed34b1b398e78e7399e1348aa
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:22:10+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:22:10+0000
+
+    Create test
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	webTemplate/src/integration-test/java/test
+
+commit b2282dd6557897aed34b1b398e78e7399e1348aa
+tree ba7ce44dca419d2bbedd62fe3893846526f53587
+parent d9b40d4c1b98f6eb0e2f25aacd767da4276ea223
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:17:25+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:17:25+0000
+
+    Update settings.gradle
+
+:100644 100644 481b72823987ca079a7f0af6dba65a750430a3e8 4bd5c6244126ffa7cfa817102f27a1b8e3d75285 M	settings.gradle
+
+commit d9b40d4c1b98f6eb0e2f25aacd767da4276ea223
+tree 97ecf86b127d9b33e4fd20c45d05b4e6dc389342
+parent bbc5999f68f511ed53c41c452bd3ef8c40a6de6f
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:15:58+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:15:58+0000
+
+    Delete tests
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	platformIntegTest/tests
+
+commit bbc5999f68f511ed53c41c452bd3ef8c40a6de6f
+tree b25e2d77c3c2aa7b165b615f7a19df3d388196f4
+parent 1ddafc8244d1a99fd0b16ff560be3dccfb80d164
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:15:40+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:15:40+0000
+
+    Delete test
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	webTemplate/src/integtest/test
+
+commit 1ddafc8244d1a99fd0b16ff560be3dccfb80d164
+tree 331fe1e0099f5f8766560fdb12b60d35cc39b3be
+parent ca0d6d504234ae07ca69e9de66652bee1a44223c
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:15:05+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:15:05+0000
+
+    Create AboutTest.groovy
+
+:000000 100644 0000000000000000000000000000000000000000 67410d41d1d40129393cffa178cb592c5ee9affc A	platformIntegTest/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy
+
+commit ca0d6d504234ae07ca69e9de66652bee1a44223c
+tree 833b555c7d1d41246164a911b11ad9c8c4b37992
+parent 636d3a65b4b124a09f26a39b80b6c19bb6d06c8d
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:13:38+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:13:38+0000
+
+    Create tests
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	platformIntegTest/tests
+
+commit 636d3a65b4b124a09f26a39b80b6c19bb6d06c8d
+tree eff7933491da438ca242b01156ba55e228634d15
+parent 99e1055e1e5dd5c89e8cae3b1c89a740645fcc33
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T17:12:18+0000
+committer GitHub <noreply@github.com> 2018-05-12T17:12:18+0000
+
+    Create test
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	webTemplate/src/integtest/test
+
+commit 99e1055e1e5dd5c89e8cae3b1c89a740645fcc33
+tree cd894d9b1e33e880263e103d98ff88689fa21707
+parent b101f2a56d83915e5e0c13c92dd08fb4f089bd1a
+author Atul-aggregatortech <38672199+Atul-aggregatortech@users.noreply.github.com> 2018-05-12T16:56:08+0000
+committer GitHub <noreply@github.com> 2018-05-12T16:56:08+0000
+
+    Update Jenkinsfile
+
+:100644 100644 d0e427d68b6d034f7b5577fea9deb42e7aa815a7 636831722e98745a206c371751c3873bdd3fe614 M	Jenkinsfile
+

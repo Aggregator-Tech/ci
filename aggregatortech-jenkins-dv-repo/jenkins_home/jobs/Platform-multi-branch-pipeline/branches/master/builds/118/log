@@ -1,0 +1,250 @@
+Branch indexing
+Setting origin to https://github.com/Aggregator-Tech/platform
+Fetching origin...
+Obtained Jenkinsfile from 725de350be3522a6555eb8ee54313e00f5d43cd7
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4ERXJeN3mhRH/jUDhCBroevlSkH/H3rQ0tsBNCHKLOFnAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 725de350be3522a6555eb8ee54313e00f5d43cd7 (master)
+Commit message: "Update gitcommit.sh"
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building code.. 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:jar UP-TO-DATE
+:common:assemble UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:common:check UP-TO-DATE
+:common:build UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:jar UP-TO-DATE
+:moduleTemplate:assemble UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:moduleTemplate:check UP-TO-DATE
+:moduleTemplate:build UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:jar UP-TO-DATE
+:webTemplate:startScripts UP-TO-DATE
+:webTemplate:distTar UP-TO-DATE
+:webTemplate:distZip UP-TO-DATE
+:webTemplate:assemble UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+:webTemplate:check UP-TO-DATE
+:webTemplate:build UP-TO-DATE
+
+BUILD SUCCESSFUL in 6s
+15 actionable tasks: 15 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+running unit tests
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew test
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+
+BUILD SUCCESSFUL in 1s
+9 actionable tasks: 9 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploy  to remote repo. Artifactory or  docker hub. we will not publish it to artifactory/docker hub yet 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew installDist
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:jar UP-TO-DATE
+:webTemplate:startScripts UP-TO-DATE
+:webTemplate:installDist UP-TO-DATE
+
+BUILD SUCCESSFUL in 0s
+4 actionable tasks: 4 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ rm -rf work-heroku
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ mkdir work-heroku
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ/work-heroku
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[work-heroku] Running shell script
++ sh ../gitcommit.sh
+HEAD detached at 725de35
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    heroku-platform
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	commitFile
+	../work-heroku@tmp/durable-88c5b6d7/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+HEAD detached at 725de35
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   commitFile
+	deleted:    heroku-platform
+	new file:   ../work-heroku@tmp/durable-88c5b6d7/jenkins-log.txt
+	new file:   ../work-heroku@tmp/durable-88c5b6d7/script.sh
+
+[detached HEAD ce08864] my update msg
+ 4 files changed, 27 insertions(+), 1 deletion(-)
+ create mode 100644 work-heroku/commitFile
+ delete mode 160000 work-heroku/heroku-platform
+ create mode 100644 work-heroku@tmp/durable-88c5b6d7/jenkins-log.txt
+ create mode 100755 work-heroku@tmp/durable-88c5b6d7/script.sh
+HEAD detached from 725de35
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../work-heroku@tmp/durable-88c5b6d7/jenkins-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+HEAD detached from 725de35
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../work-heroku@tmp/durable-88c5b6d7/jenkins-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // dir
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (staging)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Commit to Heroku repo and that will trigger deploy on Heroku 
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Run integ tests on staging env.
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
++ ./gradlew test
+:common:compileJava UP-TO-DATE
+:common:compileGroovy NO-SOURCE
+:common:processResources NO-SOURCE
+:common:classes UP-TO-DATE
+:common:compileTestJava NO-SOURCE
+:common:compileTestGroovy UP-TO-DATE
+:common:processTestResources NO-SOURCE
+:common:testClasses UP-TO-DATE
+:common:test UP-TO-DATE
+:moduleTemplate:compileJava UP-TO-DATE
+:moduleTemplate:compileGroovy NO-SOURCE
+:moduleTemplate:processResources NO-SOURCE
+:moduleTemplate:classes UP-TO-DATE
+:moduleTemplate:compileTestJava NO-SOURCE
+:moduleTemplate:compileTestGroovy UP-TO-DATE
+:moduleTemplate:processTestResources NO-SOURCE
+:moduleTemplate:testClasses UP-TO-DATE
+:moduleTemplate:test UP-TO-DATE
+:webTemplate:compileJava UP-TO-DATE
+:webTemplate:compileGroovy NO-SOURCE
+:webTemplate:processResources NO-SOURCE
+:webTemplate:classes UP-TO-DATE
+:webTemplate:compileTestJava NO-SOURCE
+:webTemplate:compileTestGroovy UP-TO-DATE
+:webTemplate:processTestResources NO-SOURCE
+:webTemplate:testClasses UP-TO-DATE
+:webTemplate:test UP-TO-DATE
+
+BUILD SUCCESSFUL in 1s
+9 actionable tasks: 9 up-to-date
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Production)
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploy the prod env
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4IdxUH2IDVoUkS1ClCISWbnBL1/ZQ/XWpTk/03hyypVzAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,40 @@
+commit d9d073057630a3239858a4728dddb1459d01eaa8
+tree 37ae73188b8682282ac65f3800900c5a8276ba7a
+parent afe53baf0f8b3f8e7a6e41b53ec158dc339039ad
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T02:55:56+0000
+committer GitHub <noreply@github.com> 2018-05-17T02:55:56+0000
+
+    Delete jenkins-log.txt
+
+:100644 000000 2d97550c5e41d120fe7b174f44ea793f2383c15e 0000000000000000000000000000000000000000 D	work-heroku@tmp/durable-7bb3102b/jenkins-log.txt
+
+commit afe53baf0f8b3f8e7a6e41b53ec158dc339039ad
+tree 1089354d723e4d6e57d1b0e3e1e162d9996414a1
+parent 0f198633c0b18931b67dfa364d65a27c460626ec
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T02:55:47+0000
+committer GitHub <noreply@github.com> 2018-05-17T02:55:47+0000
+
+    Delete script.sh
+
+:100755 000000 6f024edb283241bea803d3bf3ce4788af159813f 0000000000000000000000000000000000000000 D	work-heroku@tmp/durable-7bb3102b/script.sh
+
+commit 0f198633c0b18931b67dfa364d65a27c460626ec
+tree d65b48f2173c7e376594473b06e12695b90d05ba
+parent 202ae39592633483cab9c8333489c08538227235
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T02:55:05+0000
+committer GitHub <noreply@github.com> 2018-05-17T02:55:05+0000
+
+    Delete test
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	work-heroku/test
+
+commit 202ae39592633483cab9c8333489c08538227235
+tree e17f4ffdf08f16e8969c3ca92a6d55fcc53d749e
+parent 7b5f099a29d87b0e03962c2a858cf9209ff23d27
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T02:54:50+0000
+committer GitHub <noreply@github.com> 2018-05-17T02:54:50+0000
+
+    Create test
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	work-heroku/test
+

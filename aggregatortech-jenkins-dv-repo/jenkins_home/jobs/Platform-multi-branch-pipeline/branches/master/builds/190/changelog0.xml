@@ -1,0 +1,20 @@
+commit a4ebfce00d8ed983386d74d6dce3f1c2d65d14bd
+tree 616450912b4cc774eed7fe44c9096dab56c6a451
+parent 7de8066ecac8b02e22f0c3a135c2f1cafb6f9885
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T23:21:06+0000
+committer GitHub <noreply@github.com> 2018-05-17T23:21:06+0000
+
+    Update Jenkinsfile
+
+:100644 100644 32ef3414751a62f4dad4d1dc5e55aeadcec0f9a2 74b476ad24732917e1e452a83513957e6669a746 M	Jenkinsfile
+
+commit 7de8066ecac8b02e22f0c3a135c2f1cafb6f9885
+tree 619b29983e4c909b36ee2066ceb7ef52127c5926
+parent c1f86648e0269f74c5f87608af9800ed46ae164d
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T23:16:57+0000
+committer GitHub <noreply@github.com> 2018-05-17T23:16:57+0000
+
+    Update Jenkinsfile
+
+:100644 100644 10e8574c6d0728f4d79b488b44e06fb67a84c0d4 32ef3414751a62f4dad4d1dc5e55aeadcec0f9a2 M	Jenkinsfile
+

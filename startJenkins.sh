@@ -21,5 +21,5 @@ echo $proxyString
 echo "Stopping running container aggregatortech-jenkins"
 docker stop aggregatortech-jenkins
 docker rm  aggregatortech-jenkins
-docker run -p 8080:8080 -p 50000:50000 --volumes-from aggregatortech-jenkins-dv --env JAVA_OPTS="$proxyString" --name aggregatortech-jenkins jenkins/jenkins
+docker run -p 8080:8080 -p 50000:50000 --volumes-from aggregatortech-jenkins-dv  --env JAVA_OPTS="$proxyString" --name aggregatortech-jenkins jenkins/jenkins-ci
 

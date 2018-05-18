@@ -1,0 +1,10 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+remote: Counting objects
+remote: Compressing objects
+Receiving objects
+Resolving deltas
+Updating references
+Fetching without tags
+Checking out Revision eb6350dd9e3313fc28a0174a2b812f4ec65b0948 (master)
+Commit message: "Update gitcommit.sh"

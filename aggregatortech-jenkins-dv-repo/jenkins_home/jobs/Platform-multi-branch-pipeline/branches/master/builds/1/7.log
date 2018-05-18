@@ -1,0 +1,11 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+remote: Counting objects
+remote: Compressing objects
+Receiving objects
+Resolving deltas
+Updating references
+Fetching without tags
+Checking out Revision b927d9d3c112c46e33dd5e64e5fbfa9a0d6c5287 (master)
+Commit message: "removing error"
+First time build. Skipping changelog.

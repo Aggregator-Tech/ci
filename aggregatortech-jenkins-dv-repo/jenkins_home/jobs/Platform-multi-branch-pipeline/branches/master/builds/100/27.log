@@ -1,0 +1,12 @@
+[ssh-agent] Using credentials atul-aggregatortech
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-LwFlWtTU70AS/agent.3820
+SSH_AGENT_PID=3822
+[ssh-agent] Started.
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 3822 killed;
+[ssh-agent] Stopped.

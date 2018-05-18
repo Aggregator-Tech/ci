@@ -1,0 +1,310 @@
+commit 7b5f099a29d87b0e03962c2a858cf9209ff23d27
+tree d65b48f2173c7e376594473b06e12695b90d05ba
+parent b035246465cde0abbd66b4beb61d4f1049aa50ef
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:31:34+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:31:34+0000
+
+    Create AboutTest.groovy
+
+:000000 100644 0000000000000000000000000000000000000000 67410d41d1d40129393cffa178cb592c5ee9affc A	integTests/webTemplate/src/test/groovy/webTemplate/resource/AboutTest.groovy
+
+commit b035246465cde0abbd66b4beb61d4f1049aa50ef
+tree 2911503de6f779f4de87de7a44cd631732a57863
+parent a3726a0c9881a9d61793167fe1ce543bdbf8290c
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:30:18+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:30:18+0000
+
+    Create 1
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	integTests/webTemplate/src/test/groovy/1
+
+commit a3726a0c9881a9d61793167fe1ce543bdbf8290c
+tree 5d9b49abf5d08e5e729fa5f3cd561587dd17a8ab
+parent e03dba4d74515622265fbfcc179db99a1155f021
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:28:59+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:28:59+0000
+
+    Delete build.gradle
+
+:100644 000000 56eac11560658085484eeabd0104896c889bad45 0000000000000000000000000000000000000000 D	integTests/build.gradle
+
+commit e03dba4d74515622265fbfcc179db99a1155f021
+tree b0d41cb93f3083031467ad9ec8de5e6163982904
+parent 8fa6c6d8b3f6e735bc5980751b410e1b26b38dc5
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:28:11+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:28:11+0000
+
+    Create build.gradle
+
+:000000 100644 0000000000000000000000000000000000000000 56eac11560658085484eeabd0104896c889bad45 A	integTests/webTemplate/build.gradle
+
+commit 8fa6c6d8b3f6e735bc5980751b410e1b26b38dc5
+tree 72734e0748d3173bf7469df1bc571d76c12aa8ff
+parent 6f2662904fe7a26c2591759535fd6ed06336c2c9
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:27:32+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:27:32+0000
+
+    Update settings.gradle
+
+:100644 100644 e9de8bad78bfb8e1b895190d7afbaeb5dc5e24fb 71c9321539fb0399dded4d4932af57a1482d8cf2 M	settings.gradle
+
+commit 6f2662904fe7a26c2591759535fd6ed06336c2c9
+tree b0bb9a57c6e3e8a6bf0f99ea0010bc94480b4679
+parent e03e0ee7ab51e362416c47f46c74934e6a7c6bb0
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:24:52+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:24:52+0000
+
+    Update Server.java
+
+:100644 100644 d9d4d104334612c4c84eccd3ef62b9e5d93c9205 c425d5177fc23dafee8056df687b818edaa84361 M	webTemplate/src/main/java/webTemplate/service/Server.java
+
+commit e03e0ee7ab51e362416c47f46c74934e6a7c6bb0
+tree edf148fa560a4b07e972ac9504b863cd5a5d4054
+parent 7046c0bfe064fd82e8ad771526c28b308ff5e8a8
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:14:59+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:14:59+0000
+
+    Delete test
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	webTemplate/src/integration-test/java/test
+
+commit 7046c0bfe064fd82e8ad771526c28b308ff5e8a8
+tree ae5ced24a1290c363de3a46019a3f47fe223d9fe
+parent d57a16f36e77ea37abb024742ed76e73c16ad07a
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:14:49+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:14:49+0000
+
+    Delete AboutTest.groovy
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	webTemplate/src/integration-test/groovy/webTemplate/resource/AboutTest.groovy
+
+commit d57a16f36e77ea37abb024742ed76e73c16ad07a
+tree 195a2be971d233f7f2774815018acbb7e394827d
+parent 377ebdefb172986d00798039f51b0e9b24b8d946
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:14:22+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:14:22+0000
+
+    Update build.gradle
+
+:100644 100644 f148b289652c14d5b4baf9aeb23c6e2e2bb54fb6 189b5ac1525f730f6f270f04e588187c03dfb7ba M	webTemplate/build.gradle
+
+commit 377ebdefb172986d00798039f51b0e9b24b8d946
+tree 6a42f489e4d71fa483e17bd8ac077384095a2f0f
+parent 72c79d9b725187b8c55b7c84f26940e386dd7657
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:13:20+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:13:20+0000
+
+    Update settings.gradle
+
+:100644 100644 481b72823987ca079a7f0af6dba65a750430a3e8 e9de8bad78bfb8e1b895190d7afbaeb5dc5e24fb M	settings.gradle
+
+commit 72c79d9b725187b8c55b7c84f26940e386dd7657
+tree 11f6f862b026a206d8cd55aa494939db8c558826
+parent 698ac1660aab5da26514dd222b60d844f99ce40a
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:12:26+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:12:26+0000
+
+    Create AboutTest.groovy
+
+:000000 100644 0000000000000000000000000000000000000000 67410d41d1d40129393cffa178cb592c5ee9affc A	integTests/webTemplate/src/webTemplate/resource/AboutTest.groovy
+
+commit 698ac1660aab5da26514dd222b60d844f99ce40a
+tree 81ab2532a3450cce2f6f0363b4520f36716bd433
+parent 3a6eff325c971a5f07f9172b06d68b3cc17ea999
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:10:53+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:10:53+0000
+
+    Delete test
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	integTests/test
+
+commit 3a6eff325c971a5f07f9172b06d68b3cc17ea999
+tree 6870d9c2e76747374b5124ee9fc5db28fe9b40c6
+parent cbbb4d0bd48f59078f62617b1ebbb71ad41f35d8
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:10:45+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:10:45+0000
+
+    Create build.gradle
+
+:000000 100644 0000000000000000000000000000000000000000 56eac11560658085484eeabd0104896c889bad45 A	integTests/build.gradle
+
+commit cbbb4d0bd48f59078f62617b1ebbb71ad41f35d8
+tree 6a32c42f221dcb587b3546eba63c5d0b51724374
+parent d0bef2cbcfda70c988b35e038760a865421b742b
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T23:09:10+0000
+committer GitHub <noreply@github.com> 2018-05-16T23:09:10+0000
+
+    Create test
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	integTests/test
+
+commit d0bef2cbcfda70c988b35e038760a865421b742b
+tree 3a389c607a8a54dcbd51c676b51a4a1fc3c0e39f
+parent 34597f73537722becfdfb352c1d108833e233441
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T21:25:16+0000
+committer GitHub <noreply@github.com> 2018-05-16T21:25:16+0000
+
+    Update build.gradle
+
+:100644 100644 7ef38f278dd8c851af7f739d7f08b0ab5450f2d8 f148b289652c14d5b4baf9aeb23c6e2e2bb54fb6 M	webTemplate/build.gradle
+
+commit 34597f73537722becfdfb352c1d108833e233441
+tree cc4d683d423d3b0aa10efd57dc78bf7159786390
+parent 82eedb459352e791467aba5b5479ea633326ebb3
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:59:34+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:59:34+0000
+
+    Update build.gradle
+
+:100644 100644 35ace0b06c67510d3a774b4d26b314e120079c49 d9e15809a98f5478b47ab1e5ec8b87390e749aa3 M	build.gradle
+
+commit 82eedb459352e791467aba5b5479ea633326ebb3
+tree 42c61ecdc694fb213a63006e6506c6aa67fd7b80
+parent 0b8594895543c01b4fa0e9647fe249f39c90989a
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:56:14+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:56:14+0000
+
+    Update README.md
+
+:100644 100644 4e25ff48be9a794d8b196162fa3005d4676a642b 1ab2e62da6c277c63f34ce2ceed08b61d5dc18ee M	README.md
+
+commit 0b8594895543c01b4fa0e9647fe249f39c90989a
+tree 923dbb49f19d80857bb0e45c147014413c734c14
+parent 7903af19275bcc8a246c956f3dac447b85031fc6
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:54:24+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:54:24+0000
+
+    Update Server.java
+
+:100644 100644 76eb7f0d8624b4515129b7cf830cf6f94ada8e72 d9d4d104334612c4c84eccd3ef62b9e5d93c9205 M	webTemplate/src/main/java/webTemplate/service/Server.java
+
+commit 7903af19275bcc8a246c956f3dac447b85031fc6
+tree ecf3b6c17d21996c134bebb61cd0ea20b8dc59ea
+parent 4ce7e83e6f4ec9c2ea14a444ead4f10b21e57c59
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:52:18+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:52:18+0000
+
+    Update Server.java
+
+:100644 100644 ea2123d4d245c66c5ca0d3428aa9b5a188fc85b2 76eb7f0d8624b4515129b7cf830cf6f94ada8e72 M	webTemplate/src/main/java/webTemplate/service/Server.java
+
+commit 4ce7e83e6f4ec9c2ea14a444ead4f10b21e57c59
+tree 07f05b144221f4075bd87ec6ef249325b5beea0f
+parent bdb278a31ad659f8a28646d13de3cdfc23181522
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:50:16+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:50:16+0000
+
+    Update build.gradle
+
+:100644 100644 afbde2bcc76959a5216e430fcb89f6bb3c1ccebd 35ace0b06c67510d3a774b4d26b314e120079c49 M	build.gradle
+
+commit bdb278a31ad659f8a28646d13de3cdfc23181522
+tree eae212e5915cbba4e83baf9862c74ee68733ab9e
+parent f46c06435773def48eb3debbaa10dc3c2da7eac7
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:49:03+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:49:03+0000
+
+    Update build.gradle
+
+:100644 100644 2754d41b1098b2cd96af0930b6e3fdbee33f5d0e 7ef38f278dd8c851af7f739d7f08b0ab5450f2d8 M	webTemplate/build.gradle
+
+commit f46c06435773def48eb3debbaa10dc3c2da7eac7
+tree effab150ebe10b8334ecfb839c9f86b991423b5a
+parent a7aae508ce0f2a72813708fcd05ced534119b5e5
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:48:10+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:48:10+0000
+
+    Update build.gradle
+
+:100644 100644 0aa9690c994415c4ce061a8f74d176f2bbcde2c1 2754d41b1098b2cd96af0930b6e3fdbee33f5d0e M	webTemplate/build.gradle
+
+commit a7aae508ce0f2a72813708fcd05ced534119b5e5
+tree 89751c701fcc78665fcceaacca451ed7c9fc5563
+parent 78d4b36dd2187cfe7e543f6a8d1b97991188b98d
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:47:04+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:47:04+0000
+
+    Update build.gradle
+
+:100644 100644 d9202c619ff87e8f5d28ac9d3944d0e4323966fb afbde2bcc76959a5216e430fcb89f6bb3c1ccebd M	build.gradle
+
+commit 78d4b36dd2187cfe7e543f6a8d1b97991188b98d
+tree 211e9708b65f29838878a2eb7d40f8c03fc9387e
+parent e485d33b98983df270a8fb73496558f2d615f7b7
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:40:55+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:40:55+0000
+
+    Update build.gradle
+
+:100644 100644 189b5ac1525f730f6f270f04e588187c03dfb7ba 0aa9690c994415c4ce061a8f74d176f2bbcde2c1 M	webTemplate/build.gradle
+
+commit e485d33b98983df270a8fb73496558f2d615f7b7
+tree 87062e65e7d5c18022c7b792a8dfbea3ffd4fad9
+parent 3115d503d62e4be24e1eb5a5b8c428ad2062c5e7
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:40:40+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:40:40+0000
+
+    Update build.gradle
+
+:100644 100644 d5be30209bc36e4060a5711b588cf50585bae2b3 d9202c619ff87e8f5d28ac9d3944d0e4323966fb M	build.gradle
+
+commit 3115d503d62e4be24e1eb5a5b8c428ad2062c5e7
+tree acbc3a580a0306cdb6d1e645c13fc8a79c15f8a8
+parent 1610862e4df03dae2cb8de7fe5641c29c068e550
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:39:26+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:39:26+0000
+
+    Update build.gradle
+
+:100644 100644 b6712e0b40ed859a89bb07341e94c3786a5129e4 d5be30209bc36e4060a5711b588cf50585bae2b3 M	build.gradle
+
+commit 1610862e4df03dae2cb8de7fe5641c29c068e550
+tree f3f77bd7672e8174c982e1f6a1b2a6ce675f7628
+parent ddd5a1f712269c0fe5d0bac2821fcbcc25603271
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:34:42+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:34:42+0000
+
+    Update Procfile
+
+:100644 100644 1ce6860cda40fc27a241f985eaa1cfdcc6f19663 e3253ed2ef5d119fcb56657d1ccb170dd87b1689 M	Procfile
+
+commit ddd5a1f712269c0fe5d0bac2821fcbcc25603271
+tree efd9e6685815b1388c92c22baef7742bed8efe40
+parent 779cdd5fb630871f05e9f4f113b20fbf84a85756
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:28:34+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:28:34+0000
+
+    Create Procfile
+
+:000000 100644 0000000000000000000000000000000000000000 1ce6860cda40fc27a241f985eaa1cfdcc6f19663 A	Procfile
+
+commit 779cdd5fb630871f05e9f4f113b20fbf84a85756
+tree f6d6a677503f52d3e0dc82256351f8b33979a77c
+parent 21cba95fb797dd07352b817e214aab402579cf4d
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T16:26:42+0000
+committer GitHub <noreply@github.com> 2018-05-16T16:26:42+0000
+
+    Update build.gradle
+
+:100644 100644 d9202c619ff87e8f5d28ac9d3944d0e4323966fb b6712e0b40ed859a89bb07341e94c3786a5129e4 M	build.gradle
+
+commit 21cba95fb797dd07352b817e214aab402579cf4d
+tree b3f53952388c931e4d7361a31171102207ba0567
+parent 963856f0f39bdabb6b3809bbb7e8afabeea422dd
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T05:46:38+0000
+committer GitHub <noreply@github.com> 2018-05-16T05:46:38+0000
+
+    Delete Procfile
+
+:100644 000000 bcf093f7a209540e84a93493292c7b05b1731f26 0000000000000000000000000000000000000000 D	Procfile
+
+commit 963856f0f39bdabb6b3809bbb7e8afabeea422dd
+tree 3cb846210c5faf190ee9cc59357b9c86a3671ac8
+parent ee1f0b67c4121baf294a4c12b0eff1421a9d4aaa
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-16T05:44:19+0000
+committer GitHub <noreply@github.com> 2018-05-16T05:44:19+0000
+
+    Create Procfile
+
+:000000 100644 0000000000000000000000000000000000000000 bcf093f7a209540e84a93493292c7b05b1731f26 A	Procfile
+

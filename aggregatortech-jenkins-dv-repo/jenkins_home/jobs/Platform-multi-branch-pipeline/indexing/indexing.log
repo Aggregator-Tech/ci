@@ -1,0 +1,23 @@
+Started
+[Thu May 17 23:39:19 UTC 2018] Starting branch indexing...
+Setting origin to https://github.com/Aggregator-Tech/platform
+Fetching & pruning origin...
+Listing remote references...
+Checking branches...
+  Checking branch heroku/develop/event
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch develop/event
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (e8014bab3ef764bebfcf799879462b5eebffa4f5 → 20dd8b6aeddebbcec193e3e9948bf390c2a069d1)
+Scheduled build for branch: master
+  Checking branch atul/develop/event
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+Processed 4 branches
+[Thu May 17 23:39:22 UTC 2018] Finished branch indexing. Indexing took 2.7 sec
+Finished: SUCCESS

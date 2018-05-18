@@ -1,0 +1,10 @@
+commit 0eeca153eaf092b4f3bf91e891bd6ea9305ff0cc
+tree 6e88792e655a4f189e0ed139ea0d9f54b0c0fe50
+parent 723a5c90fcff44657dd87298d470a14114b9f0f2
+author aggregatortech <38509708+aggregatortech@users.noreply.github.com> 2018-05-17T18:08:12+0000
+committer GitHub <noreply@github.com> 2018-05-17T18:08:12+0000
+
+    Update gitcommit.sh
+
+:100644 100644 4c0e704984a8f3404cd30dd4d8f2cd3a80298f7c 45e312a3c0a6b682215527a05309038069141c05 M	gitcommit.sh
+
