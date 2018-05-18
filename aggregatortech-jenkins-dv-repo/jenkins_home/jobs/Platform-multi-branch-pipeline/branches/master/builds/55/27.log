@@ -1,8 +1,0 @@
-[ssh-agent] Using credentials atul-aggregatortech
-[ssh-agent] Looking for ssh-agent implementation...
-[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
-$ ssh-agent
-SSH_AUTH_SOCK=/tmp/ssh-eD3rGm84LM6t/agent.6254
-SSH_AGENT_PID=6256
-$ ssh-add /var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ@tmp/private_key_5018944411353561404.key
-ssh_askpass: exec(/var/jenkins_home/workspace/ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ@tmp/askpass_4903456987462952456.sh): No such file or directory

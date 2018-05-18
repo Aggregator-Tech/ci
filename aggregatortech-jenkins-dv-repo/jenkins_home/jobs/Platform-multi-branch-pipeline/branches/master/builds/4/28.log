@@ -1,1 +1,0 @@
-Run integ tests on staging env.Make a change in heroku repo so that heroku can pick up the change

@@ -1,7 +1,0 @@
-[heroku-platform] Running shell script
-+ sh ../../gitcommit.sh
-[master 59f2456] my update msg
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 deployable-artifacts/webTemplate-1.0.jar
-To https://github.com/Aggregator-Tech/heroku-platform
-   23a2b07..59f2456  master -> master

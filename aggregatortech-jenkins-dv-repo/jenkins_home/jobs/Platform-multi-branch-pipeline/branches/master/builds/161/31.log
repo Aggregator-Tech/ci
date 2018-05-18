@@ -1,5 +1,0 @@
-[work-heroku] Running shell script
-+ sh ../gitclone.sh
-Path is  ${PWD}
-Cloning into 'heroku-platform'...
-fatal: unable to access 'https://github.com/Aggregator-Tech/heroku-platform/': Could not resolve proxy: ${params.proxy_url}

@@ -1,4 +1,0 @@
-[work-heroku] Running shell script
-+ sh ../gitclone.sh
-Path is  ${PWD}
-Cloning into 'heroku-platform'...

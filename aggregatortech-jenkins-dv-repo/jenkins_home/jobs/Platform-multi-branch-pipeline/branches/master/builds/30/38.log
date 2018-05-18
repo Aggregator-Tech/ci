@@ -1,5 +1,0 @@
-[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
-+ git commit -m Add change 
-[detached HEAD 299b8e7] Add change
- 1 file changed, 1 insertion(+)
- create mode 160000 heroku-platform

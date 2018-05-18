@@ -22,19 +22,19 @@ sed "s/\${http.proxyHost}/$proxyHost/;s/\${http.proxyPort}/$proxyPort/" aggregat
 fi
 #create docker image
 #docker build jenkins2/.
-docker cp  stagingForJenkins/jenkins_home/.  aggregatortech-jenkins-dv:/var/jenkins_home/.
+docker cp  stagingForJenkins/jenkins_home/.  aggregatortech-jenkins-dv1:/var/jenkins_home/.
 echo "Stopping running container aggregatortech-jenkins"
 docker stop aggregatortech-jenkins
 docker container rm -f aggregatortech-jenkins
 echo "Removing aggregatortech-jenkins-dv,aggregatortech-jenkins"
 docker container rm -f aggregatortech-jenkins
-docker container rm -f aggregatortech-jenkins-dv
+docker container rm -f aggregatortech-jenkins-dv1
 echo "volume removed successfully"
-docker create -v /var/jenkins_home --name aggregatortech-jenkins-dv jenkins/jenkins
+docker create -v /var/jenkins_home --name aggregatortech-jenkins-dv1 jenkins/jenkins
 echo "volume recreated  successfully"
 
 chmod -R 777 stagingForJenkins
-docker cp  stagingForJenkins/jenkins_home/.  aggregatortech-jenkins-dv:/var/jenkins_home/.
+docker cp  stagingForJenkins/jenkins_home/.  aggregatortech-jenkins-dv1:/var/jenkins_home/.
 echo "volume refreshed  successfully"
 rm -rf stagingForJenkins
 sh startJenkins.sh $proxyHost $proxyPort

@@ -1,5 +1,0 @@
-[heroku-platform] Running shell script
-+ sh ../../gitcommit.sh
-[master 07e7dc0] my update msg
- 1 file changed, 1 insertion(+)
-../../gitcommit.sh: 8: ../../gitcommit.sh: Syntax error: Unterminated quoted string

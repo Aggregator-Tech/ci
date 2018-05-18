@@ -1,7 +1,0 @@
-[heroku-platform] Running shell script
-+ sh ../../gitcommit.sh
-[master eebe803] my update msg
- 1 file changed, 0 insertions(+), 0 deletions(-)
- rewrite deployable-artifacts/webTemplate-1.0.jar (82%)
-To https://github.com/Aggregator-Tech/heroku-platform
-   9dd4a07..eebe803  master -> master

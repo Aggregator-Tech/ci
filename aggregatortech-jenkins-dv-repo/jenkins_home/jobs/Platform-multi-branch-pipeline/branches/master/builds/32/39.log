@@ -1,3 +1,0 @@
-[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
-+ git push https://atul-aggregatortech:Westworld@1@github.com/Aggregator-Tech/heroku-platform HEAD:origin
-fatal: unable to access 'https://atul-aggregatortech:Westworld@1@github.com/Aggregator-Tech/heroku-platform/': The requested URL returned error: 502

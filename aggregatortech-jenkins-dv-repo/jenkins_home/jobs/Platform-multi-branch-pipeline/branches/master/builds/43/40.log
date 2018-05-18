@@ -1,4 +1,0 @@
-[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
-+ git push origin master
-error: src refspec master does not match any.
-error: failed to push some refs to 'https://github.com/Aggregator-Tech/heroku-platform'

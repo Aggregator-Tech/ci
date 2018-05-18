@@ -1,4 +1,0 @@
-HttpMethod: GET
-URL: https://aggregatortech-platform.herokuapp.com/webTemplate/v1/about
-Sending request to url: https://aggregatortech-platform.herokuapp.com/webTemplate/v1/about
-Response Code: HTTP/1.1 503 Service Unavailable

@@ -1,3 +1,0 @@
-[heroku-platform] Running shell script
-+ sh ../gitcommit.sh
-sh: 0: Can't open ../gitcommit.sh

@@ -1,6 +1,0 @@
-[heroku-platform] Running shell script
-+ sh ../../gitcommit.sh
-[master 544bbd7] my update msg
- 1 file changed, 0 insertions(+), 0 deletions(-)
-To https://github.com/Aggregator-Tech/heroku-platform
-   7aa251c..544bbd7  master -> master

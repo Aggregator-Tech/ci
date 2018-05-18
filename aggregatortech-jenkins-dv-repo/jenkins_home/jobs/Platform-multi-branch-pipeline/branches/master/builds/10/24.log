@@ -1,4 +1,0 @@
-[ulti-branch-pipeline_master-ESOPHZRIW2KGYMBREPG52VYFRCTHI26WMY66GZPGBZZU7XFDICDQ] Running shell script
-+ git clone https://github.com/Aggregator-Tech/heroku-platform
-Cloning into 'heroku-platform'...
-fatal: unable to access 'https://github.com/Aggregator-Tech/heroku-platform/': Failed to connect to github.com port 443: Network is unreachable
