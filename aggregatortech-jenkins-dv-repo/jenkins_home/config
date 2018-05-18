@@ -1,0 +1,2 @@
+Host github.com 
+    ProxyCommand     ncat --proxy  www-proxy.us.oracle.com:80 %h %p

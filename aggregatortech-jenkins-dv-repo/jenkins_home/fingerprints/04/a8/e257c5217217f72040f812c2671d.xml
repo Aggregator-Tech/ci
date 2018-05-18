@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-05-14 04:48:16.683 UTC</timestamp>
+  <md5sum>04a8e257c5217217f72040f812c2671d</md5sum>
+  <fileName>Credential id=jenkins-git-cred name=atul-aggregatortech/******</fileName>
+  <usages>
+    <entry>
+      <string>Platform-multi-branch-pipeline/master</string>
+      <ranges>13,16-27</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

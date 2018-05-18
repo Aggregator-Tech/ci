@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-05-14 19:14:22.344 UTC</timestamp>
+  <md5sum>30820990837efb85f2f3d05ff2ea1a09</md5sum>
+  <fileName>Credential id=d10188a6-d76f-48ff-be73-fb514a86b0b4 name=atul-aggregatortech</fileName>
+  <usages>
+    <entry>
+      <string>Platform-multi-branch-pipeline/master</string>
+      <ranges>56,58-63,65-89,91-95,98-104,106-107</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
