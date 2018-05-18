@@ -65,7 +65,7 @@
           <string>platform_url</string>
           <string>${platform_url}</string>
           <string>proxy_url</string>
-          <string>${http.proxyHost}:${http.proxyPort}</string>
+          <string>http://${http.proxyHost}:${http.proxyPort}</string>
           <string>user.timezone</string>
           <string>America/New_York</string>
         </tree-map>
