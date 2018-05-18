@@ -1,0 +1,6 @@
+git
+gradle
+http_request
+workflow-aggregator
+pipeline-multibranch-defaults
+ssh-agent
