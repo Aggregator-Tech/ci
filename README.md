@@ -7,6 +7,7 @@ This project contains the CI-CD pipeline for aggregatortech
 * If you don't have privileges, you might have to run these scripts using #sudo privs
 * These scripts assumes the proxy details in the first version . will need to remove them and make configurable
 
+
 # Prerequisites
 Docker must be installed in your machine
 Must be in ci directory when executing these commands
@@ -34,3 +35,17 @@ This script does the following
 ## syncJenkinsDVWithRepo.sh
 * syncs the content from Jenkins DV with the local repository
 * To commit the changes to GITHub repo, one must push the changes manually
+
+
+#Troubleshooting
+ * Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+    * This is due to proxy configurations in your environment
+    * Edit/Create the file/etc/systemd/system/docker.service.d/https-proxy.conf
+
+    [Service]
+    Environment="HTTPS_PROXY=https://www-proxy.yourcompany.com:80/"
+
+    Restart docker after deamon reload,
+
+    $ sudo systemctl daemon-reload
+    $ sudo systemctl restart docker
