@@ -36,9 +36,10 @@ This script does the following
 * syncs the content from Jenkins DV with the local repository
 * To commit the changes to GITHub repo, one must push the changes manually
 
-
-#Troubleshooting
- * Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+# Troubleshooting
+ ## Permission denied errors
+   * Try running your commands using sudo on Linux
+ ## Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
     * This is due to proxy configurations in your environment
     * Edit/Create the file/etc/systemd/system/docker.service.d/https-proxy.conf
 
