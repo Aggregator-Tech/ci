@@ -39,6 +39,7 @@ This script does the following
 # Troubleshooting
  ## Permission denied errors
    * Try running your commands using sudo on Linux
+   
  ## Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
     * This is due to proxy configurations in your environment
     * Edit/Create the file/etc/systemd/system/docker.service.d/https-proxy.conf
